@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chopitas.boeingairplanes"
+    android:versionCode="1"
+    android:versionName="0.5" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.chopitas.boeingairplanes.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayNews"
+            android:label="@string/title_activity_display_news"
+            android:parentActivityName="com.chopitas.boeingairplanes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display787"
+            android:label="@string/title_activity_display787"
+            android:parentActivityName="com.chopitas.boeingairplanes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayBoeing"
+            android:label="@string/title_activity_display_boeing"
+            android:parentActivityName="com.chopitas.boeingairplanes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayBoeingNews"
+            android:label="@string/title_activity_display_boeing_news"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayBoeing" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayBoeing" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisPlayWebPageActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayAirbus"
+            android:label="@string/title_activity_display_airbus"
+            android:parentActivityName="com.chopitas.boeingairplanes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayAirbusNews"
+            android:label="@string/title_activity_display_airbus_news"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayAirbus" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayAirbus" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayBombardier"
+            android:label="@string/title_activity_display_bombardier"
+            android:parentActivityName="com.chopitas.boeingairplanes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayBombardierNews"
+            android:label="@string/title_activity_display_bombardier_news"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayBombardier" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayBombardier" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayEmbraer"
+            android:label="@string/title_activity_display_embraer"
+            android:parentActivityName="com.chopitas.boeingairplanes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayEmbraerNews"
+            android:label="@string/title_activity_display_embraer_news"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayEmbraer" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayEmbraer" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayATR"
+            android:label="@string/title_activity_display_atr"
+            android:parentActivityName="com.chopitas.boeingairplanes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayMD"
+            android:label="@string/title_activity_display_md"
+            android:parentActivityName="com.chopitas.boeingairplanes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayLockheed"
+            android:label="@string/title_activity_display_lockheed"
+            android:parentActivityName="com.chopitas.boeingairplanes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayTupolev"
+            android:label="@string/title_activity_display_tupolev"
+            android:parentActivityName="com.chopitas.boeingairplanes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplaySukhoi"
+            android:label="@string/title_activity_display_sukhoi"
+            android:parentActivityName="com.chopitas.boeingairplanes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.DisplayIlyushin"
+            android:label="@string/title_activity_display_ilyushin"
+            android:parentActivityName="com.chopitas.boeingairplanes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.A318"
+            android:label="@string/title_activity_a318"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayAirbus" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayAirbus" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.A319"
+            android:label="@string/title_activity_a319"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayAirbus" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayAirbus" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.A320"
+            android:label="@string/title_activity_a320"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayAirbus" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayAirbus" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.A321"
+            android:label="@string/title_activity_a321"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayAirbus" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayAirbus" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.A330"
+            android:label="@string/title_activity_a330"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayAirbus" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayAirbus" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.A340"
+            android:label="@string/title_activity_a340"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayAirbus" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayAirbus" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.A380"
+            android:label="@string/title_activity_a380"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayAirbus" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayAirbus" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.A310"
+            android:label="@string/title_activity_a310"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayAirbus" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayAirbus" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.A300"
+            android:label="@string/title_activity_a300"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayAirbus" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayAirbus" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display737"
+            android:label="@string/title_activity_display737"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayBoeing" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayBoeing" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display737News"
+            android:label="@string/title_activity_display737_news"
+            android:parentActivityName="com.chopitas.boeingairplanes.Display737" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.Display737" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display747"
+            android:label="@string/title_activity_display747"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayBoeing" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayBoeing" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display747News"
+            android:label="@string/title_activity_display747_news"
+            android:parentActivityName="com.chopitas.boeingairplanes.Display747" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.Display747" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display757"
+            android:label="@string/title_activity_display757"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayBoeing" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayBoeing" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display767"
+            android:label="@string/title_activity_display767"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayBoeing" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayBoeing" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display767News"
+            android:label="@string/title_activity_display767_news"
+            android:parentActivityName="com.chopitas.boeingairplanes.Display767" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.Display767" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display777"
+            android:label="@string/title_activity_display777"
+            android:parentActivityName="com.chopitas.boeingairplanes.DisplayBoeing" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.DisplayBoeing" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display777News"
+            android:label="@string/title_activity_display777_news"
+            android:parentActivityName="com.chopitas.boeingairplanes.Display777" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.Display777" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display787News"
+            android:label="@string/title_activity_display787_news"
+            android:parentActivityName="com.chopitas.boeingairplanes.Display787" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.Display787" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display737OS"
+            android:label="@string/title_activity_display737_os"
+            android:parentActivityName="com.chopitas.boeingairplanes.Display737" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.Display737" />
+        </activity>
+        <activity
+            android:name="com.chopitas.boeingairplanes.Display737CS"
+            android:label="@string/title_activity_display737_cs"
+            android:parentActivityName="com.chopitas.boeingairplanes.Display737" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chopitas.boeingairplanes.Display737" />
+        </activity>
+    </application>
+
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>

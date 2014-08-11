@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Display737OS" >
+    
+    
+    <com.google.ads.AdView xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+          				android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentBottom="true"
+                         ads:adUnitId="ca-app-pub-6865182331958860/2185503639"
+                         ads:adSize="SMART_BANNER"
+                         ads:loadAdOnCreate="true"/>
+
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_above="@id/adView">
+    
+            <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+              
+                
+ <ImageView
+                 android:id="@+id/image737os"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="5dp"
+                 android:src="@drawable/b737os3" />
+ 
+ 
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:text="@string/b737ost1" />
+ 
+ 
+ <ImageView 
+        android:id="@+id/image330b"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="5dp"
+                 android:src="@drawable/b737os2" />
+ 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/b737ost2" />
+    
+    <ImageView 
+        android:id="@+id/image330c"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="5dp"
+                 android:src="@drawable/b737os5" />
+    
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/b737ost3" />
+     
+
+    
+    
+    
+         
+         </LinearLayout>
+         
+         </ScrollView>
+         
+
+
+</RelativeLayout>

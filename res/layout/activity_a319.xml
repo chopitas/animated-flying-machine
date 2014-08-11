@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A319" >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+         <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+              
+             <ImageView
+                 android:id="@+id/image319"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="5dp"
+                 android:src="@drawable/a319" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image319"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:text="@string/a319_intro" />
+    
+    
+    <ImageView 
+        android:id="@+id/image319b"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="5dp"
+                 android:src="@drawable/a319b" />
+    
+    
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image319"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:text="@string/a319_history" />
+         
+         </LinearLayout>
+         
+         </ScrollView>
+         
+</RelativeLayout>

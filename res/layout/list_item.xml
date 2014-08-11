@@ -1,0 +1,73 @@
+<!-- 
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_selector"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/title_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:textColor="#0000ff"
+        android:textSize="17sp" />
+ 
+    <TextView
+        android:id="@+id/desc_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:textColor="#0000ff"
+        android:textSize="14sp" />
+    
+    android:textColor="#3399FF"
+
+</LinearLayout>
+
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/list_selector"
+    android:layout_height="fill_parent" >
+    
+    
+    <!-- android:layout_width="80dp" -->
+    
+    <ImageView
+        android:id="@+id/icon_main"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/image"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+ 
+    <TextView
+        android:id="@+id/title_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/icon_main"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:textColor="#0000ff"
+        android:textSize="16sp" />
+ 
+    <TextView
+        android:id="@+id/desc_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_main"   
+        android:paddingBottom="5dp"
+        android:layout_toRightOf="@+id/icon_main"
+        android:paddingLeft="10dp"
+        android:textColor="#0000ff"
+        android:textSize="14sp" />
+</RelativeLayout>
+
+
+<!--  -->
