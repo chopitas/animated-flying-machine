@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A320" >
+
+       <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+         <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+              
+             <ImageView
+                 android:id="@+id/image320"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="5dp"
+                 android:src="@drawable/a320" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image319"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:text="@string/a320t1" />
+    
+    
+    <ImageView 
+        android:id="@+id/image320b"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="5dp"
+                 android:src="@drawable/a320b" />
+    
+    
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image320"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:text="@string/a320t2" />
+         
+         </LinearLayout>
+         
+         </ScrollView>
+         
+</RelativeLayout>

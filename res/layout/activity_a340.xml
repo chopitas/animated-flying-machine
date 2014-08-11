@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A340" >
+
+   <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+         <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+              
+             <ImageView
+                 android:id="@+id/image340"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="5dp"
+                 android:src="@drawable/a340" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image340"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:text="@string/a340t1" />
+    
+    
+    <ImageView 
+        android:id="@+id/image340b"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="5dp"
+                 android:src="@drawable/a340b" />
+    
+    
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image321"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:text="@string/a340t2" />
+         
+         </LinearLayout>
+         
+         </ScrollView>
+         
+</RelativeLayout>

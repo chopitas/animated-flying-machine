@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Display787" >
+    
+    
+    
+    
+    <ListView
+        android:id="@+id/b787List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:drawable="@drawable/gradient_bg"
+        android:listSelector="@drawable/list_selector">
+       
+    </ListView>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--   
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+    
+    <ImageView
+        android:id="@+id/image787a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:src="@drawable/b787icon"/>
+    
+     <TextView
+        android:id="@+id/text787general"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/image787a"
+        android:text="@string/b787a" />
+     
+     <ImageView
+         android:id="@+id/image787b"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text787general"
+     	android:src="@drawable/b787icon"/>
+     
+     <TextView
+        android:id="@+id/text787engines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/image787b"
+        android:text="@string/b787b" />
+     
+     <ImageView
+         android:id="@+id/image787performance"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text787engines"
+     	android:src="@drawable/b787icon"/>
+     
+     
+     <TextView
+        android:id="@+id/text787performance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/image787performance"
+        android:text="@string/b787preformance" />
+     
+     <ImageView
+         android:id="@+id/image787weights"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text787performance"
+     	android:src="@drawable/b787icon"/>
+     
+     <TextView
+        android:id="@+id/text787weights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/image787weights"
+        android:text="@string/b787weights" />
+     
+     <ImageView
+         android:id="@+id/image787dimensions"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text787weights"
+     	android:src="@drawable/b787icon"/>
+     
+     <TextView
+        android:id="@+id/text787dimensions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/image787dimensions"
+        android:text="@string/b787dimensions" />
+     
+     
+     <ImageView
+         android:id="@+id/image787capacity"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text787dimensions"
+     	android:src="@drawable/b787icon"/>
+     
+     <TextView
+        android:id="@+id/text787capacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/image787capacity"
+        android:text="@string/b787capacity" />
+     
+     
+     <ImageView
+         android:id="@+id/image787production"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text787capacity"
+     	android:src="@drawable/b787icon"/>
+     
+     <TextView
+        android:id="@+id/text787production"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/image787production"
+        android:text="@string/b787production" />
+     
+  
+     
+     </RelativeLayout>
+     </ScrollView>
+     
+    
+   
+    
+ 	
+ 	-->
+    
+        
+
+</RelativeLayout>
